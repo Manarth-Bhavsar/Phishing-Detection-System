@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #d4f1f9, #ffffff); /* Light blue gradient */
+    color: #333;
+}
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    padding-top: 4rem; /* Add padding to accommodate logo */
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #e7f7ff;
+    color: #0d6efd;
+    text-align: center;
+}
+
+#result.hidden {
+    display: none;
+}
+
+#result p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0d6efd;
+    color: white;
+    margin-top: 2rem;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
